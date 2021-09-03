@@ -1,0 +1,621 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Crete+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Merriweather&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            background-image: url('images/yuy.png');
+            background-position: top left;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 500px;
+            background-color: rgba(219,210,191,0.5);
+        }
+
+        .container-fluid {
+            background-color: #371f82;
+        }
+
+        li, a, .footer_menu {
+            color: white;
+            list-style-type: none;
+        }
+
+        li {
+            padding-top: 10px;
+        }
+
+        .fb-ic {
+            color: #a7b632;
+        }
+
+        .dorino {
+            float: right;
+        }
+
+        p {
+            font-family: 'Slabo 27px', serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark ">
+                    <form class="form-inline ">
+                        <div class="md-form my-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        </div>
+                    </form>
+
+
+
+                    <!-- Collapse button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                        <span class="slicknav_menutxt" style="color:white;">☰ </span>
+                    </button>
+
+                    <!-- Collapsible content -->
+                    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+
+                        <!-- Links -->
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link mr-2" href="https://dorindaschocolates.com/account/login">
+                                    My Acount
+
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-2" href="https://dorindaschocolates.com/cart">CART</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-2" href="https://dorindaschocolates.com/cart">CHECKOUT</a>
+                            </li>
+
+
+                        </ul>
+
+
+                    </div>
+                    <!-- Collapsible content -->
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container pb-5">
+        <div class="row justify-content-center">
+            <img src="images/logo.png" />
+        </div>
+
+    </div>
+    <div class="container pb-3">
+        <!--Navbar-->
+        <nav class=" navbar-expand-lg navbar-dark justify-content-between " style="font-size:25PX;">
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="slicknav_menutxt" style="color:#371f82;">☰ Menu</span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse text-center" id="basicExampleNav">
+
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto justify-content-between text-center" id="MENU">
+                    <li class="nav-item active">
+                        <a class="nav-link ml-3" href="CHOCOLATES.html" style="color:#371f82;font-family: 'Bree Serif', serif;
+font-family: 'Crete Round', serif;">
+                            <strong> CHOCOLATES</strong>
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <div class="btn-group">
+                            <a href="SHOP .html">
+                                <button type="button" class="btn " style="color:#371f82;">
+                                    <strong>
+                                        <span class="edit">
+                                            <h4 style="font-family: 'Bree Serif', serif;
+font-family: 'Crete Round', serif;">
+                                                SHOP
+                                            </h4>
+                                        </span>
+                                    </strong>
+                                </button>
+                            </a>
+                            <button type="button" class="btn dropdown-toggle  px-1 " data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">BARS</a>
+                                <a class="dropdown-item" href="#">SPECIALTY ITEMS</a>
+                                <a class="dropdown-item" href="#">DIPPED TREATS</a>
+                                <a class="dropdown-item" href="#">MIXES & BULK</a>
+                                <a class="dropdown-item" href="#">BARKS</a>
+                                <a class="dropdown-item" href="#">SEASONAL/HOLIDAY</a>
+                                <a class="dropdown-item" href="#">GIFTS</a>
+                                <a class="dropdown-item" href="#">BASKETS/CORPORATE</a>
+                                <a class="dropdown-item" href="#">TRUFFKS</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-3" href="#https://dorindaschocolates.com/pages/events" style="color:#371f82;font-family: 'Bree Serif', serif;
+font-family: 'Crete Round', serif;"><strong>EVENTS</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-3" href="MONTHLY CLUB.html" style="color:#371f82;font-family: 'Bree Serif', serif;
+font-family: 'Crete Round', serif;"><strong>MONTHLY CLUPS</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-3" href="index.html" style="color:#371f82;font-family: 'Bree Serif', serif;
+font-family: 'Crete Round', serif;"><strong>ABOUT</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-3" href="https://dorindaschocolates.com/pages/contact" style="color:#371f82;font-family: 'Bree Serif', serif;
+font-family: 'Crete Round', serif;"><strong> CONTACT</strong></a>
+                    </li>
+                    <li class="nav-item ml-3">
+                        <a class="nav-link" href="LOCATIONS.html" style="color:#371f82;font-family: 'Bree Serif', serif;
+font-family: 'Crete Round', serif;"><strong>LOCATIONS</strong></a>
+                    </li>
+                </ul>
+                <!-- Links -->
+
+
+            </div>
+            <!-- Collapsible content -->
+
+        </nav>
+
+    </div>
+    <div class="container text-center " style="border-bottom:1px solid #371f82;">
+        <h1 style="color:#371f82;font-family: 'Bree Serif', serif;
+font-family: 'Crete Round', serif;">
+            <strong>Truffles</strong>
+        </h1>
+    </div>
+    <div class="container pt-3 ">
+        <div class="row">
+            <div class="col-md-10"></div>
+            <div class="col-md-2">
+                <select name="tag_filter" id="tag_filter">
+                    <optgroup label="Filter Truffles">
+                        <option selected="selected" value="#">All Products</option>
+                        <option value="#">Almond</option>
+                        <option value="#">Assorted Boxes</option>
+                        <option value="#">Award Winning</option>
+                        <option value="#">Bomb</option>
+                        <option value="#">Caramel</option>
+                        <option value="#">Cashew</option>
+                        <option value="#">Cherry</option>
+                        <option value="#">Coconut</option>
+                        <option value="#">Dark Chocolate</option>
+                        <option value="#">Dulcey Chocolate</option>
+                        <option value="#">Ebony Ivory</option>
+                        <option value="#">Espresso</option>
+                        <option value="#">Flavors</option>
+                        <option value="#">Fruit</option>
+                        <option value="#">Heart</option>
+                        <option value="#">Irish</option>
+                        <option value="#">Lemon</option>
+                        <option value="#">Macadamia</option>
+                        <option value="#">Marshmallow</option>
+                        <option value="#">Melt Away</option>
+                        <option value="#">Milk Chocolate</option>
+                        <option value="#">Mint</option>
+                        <option value="#">Naked</option>
+                        <option value="#">Nuts</option>
+                        <option value="#">Orange</option>
+                        <option value="#">Peanut Butter</option>
+                        <option value="#">Peanuts</option>
+                        <option value="#">Pecans</option>
+                        <option value="#">Peppermint</option>
+                        <option value="#">Pistachio</option>
+                        <option value="#">Praline</option>
+                        <option value="#">Raspberry</option>
+                        <option value="#">Salt</option>
+                        <option value="#">Sea Salt</option>
+                        <option value="#">Seasonal</option>
+                        <option value="#">Toffee</option>
+                        <option value="#">Truffles</option>
+                        <option value="#">Vanilla</option>
+                        <option value="#">White Chocolate</option>
+                    </optgroup>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="container pt-4"><div class="col-md-12" style="   font-family: 'Slabo 27px', serif;">Award winning truffles! Caramels, Chocolate Covered Cherries and many more. All hand-crafted at Reno's premier chocolate shop.</div></div>
+    <div class="container pt-3 pb-5">
+        <div class="row ">
+            <div class="col-md-3" style="float:left; padding:0;margin:0;">
+                <nav class=" navbar-expand-lg navbar-dark ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="slicknav_menutxt" style="color:#371f82;">☰ SHOP</span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                        <ul class="blog_list toggle_list" id="SHOP">
+                            <h4 class="toggle" style="border-bottom:1px solid #371f82;font-family: 'Bree Serif', serif;"><span>+</span><strong>Shop</strong> </h4>
+                            <li>
+                                <a href="#" title="Assorted Boxes" style="color:black;border-bottom:1px dotted #371f82; ">Assorted Boxes</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Truffles" style="color:black;border-bottom:1px dotted #371f82;color:#371f82;">Truffles</a>
+                            </li>
+                            <li style="padding-left:10px;">
+                                <a href="#" title="Truffles" style="color:black;border-bottom:1px dotted #371f82;color:#371f82;">AllTruffles</a>
+                            </li>
+                            <li style="padding-left:10px;">
+                                <a href="#" title="Truffles" style="color:black;border-bottom:1px dotted #371f82;">Caramels</a>
+                            </li>
+                            <li style="padding-left:10px;">
+                                <a href="#" title="Truffles" style="color:black;border-bottom:1px dotted #371f82;">Nets</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Bars" style="color:black;border-bottom:1px dotted #371f82;">Bars</a>
+                            </li>
+
+                            <li>
+                                <a href="#" title="Specialty Items" style="color:black;">Specialty Items</a>
+                            </li>
+
+                            <li>
+                                <a href="#" title="Dipped Treats" style="color:black;border-bottom:1px dotted #371f82;">Dipped Treats</a>
+                            </li>
+
+                            <li>
+                                <a href="#" title="Mixes &amp; Bulk" style="color:black;border-bottom:1px dotted #371f82;">Mixes & Bulk</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Barks" style="color:black;border-bottom:1px dotted #371f82;">Barks</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Seasonal" style="color:black;border-bottom:1px dotted #371f82;">Seasonal</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Gift Baskets/Corporate" style="color:black;border-bottom:1px dotted #371f82;">Gift Baskets/Corporate</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+                <h3 style="padding-left:10px; border-bottom:1px solid black;padding-top:10px;padding-bottom:3px;color:#371f82;font-family: 'Bree Serif', serif;
+font-family: 'Crete Round', serif;">
+                    Dorinda's Chocolates are handcrafted with <br />the finest<br /> ingredients
+                </h3>
+                <p style="padding-left:10px; padding-top:8px; text-align:left;    font-family: 'Slabo 27px', serif;">When you mix a passion for creating<br /> chocolates and remove the automation <br /> that every piece of chocolate<br /> is truly handcrafted,<br /> your experience will be both savory and<br /> memorable<br />. Visit us in store to see the wide variety of chocolates we offer each season, or order<br /> online to enjoy your <br />Dorinda's Chocolates from any<br />where in the U.S. For weddings<br /> and other special <br />occasions, call us with custom orders.</p>
+            </div>
+            <div class="col-md-3">
+
+
+                <img class="img-fluid pt-3 " src="images/Dorindas_-_Winter-030_large.jpg" />
+                <p style="padding-bottom:0;padding-top:5px;font-family: 'Merriweather', serif;">Award Winning Chocolate Cherries</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $24.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+
+                <img class="img-fluid pt-3" src="images/Dorindas_-_January-041_large.jpg" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">Caramel On A Cloud</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $16.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+                <img class="img-fluid pt-3" src="images/Dorindas_-_January-046_grande.jpg" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">Award Winning Lemon</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $10.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+                <img class="img-fluid pt-3" src="images/Truffle_Wild_Orange_grande.jpg" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">Wild Orange</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $24.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+
+                <img class="img-fluid pt-3" src="images/Dorindas_-_January-042_grande.jpg" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">The Peanut Cluster</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $24.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+                <img class="img-fluid pt-3" src="images/Truffle_Nut_Trio_Favorite_grande.png" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">The Nut Trio</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $24.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+            </div>
+
+
+            <div class="col-md-3">
+
+                <img class="img-fluid pt-3 " src="images/Screen_Shot_2016-09-07_at_3.20.55_PM_grande.png" />
+                <p style="padding-bottom:0;padding-top:5px;font-family: 'Merriweather', serif;">Ebony Ivory</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $24.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+
+
+                <img class="img-fluid pt-3 " src="images/Peanut_Butter_Bites_2_grande.jpg" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">Peanut Butter Cups</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $24.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+                <img class="img-fluid pt-3 " src="images/Dorindas_Peanut_Butter_Bomb_grande.jpg" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">Naked Peanut Butter</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $10.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+
+                <img class="img-fluid pt-3 " src="images/Dorindas_Naked_Irishman_side_shot_large.jpg" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">Naked Irishman</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $24.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+
+
+                <img class="img-fluid pt-3 " src="images/Dorindas_-_January-087_large.jpg" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">Naked 70%</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $24.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+
+                <img class="img-fluid pt-3 " src="images/Dorindas_-_January-085_grande.jpg" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">Mountain of Pecans</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $24.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+            </div>
+            <div class="col-md-3">
+
+
+
+                <img class="img-fluid pt-3 " src="images/Dorindas_-_January-081_grande.jpg" />
+                <p style="padding-bottom:0;padding-top:5px;font-family: 'Merriweather', serif;">Pepper' Minty Melt</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $24.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+
+
+                <img class="img-fluid pt-3 " src="images/Dorindas_-_January-067_large.jpg" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">Marzipan Flowers</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $16.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+
+                <img class="img-fluid pt-3 " src="images/Dorindas_-_January-042_grande.jpg" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">The Peanut Cluster</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $10.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+
+                <img class="img-fluid pt-3 " src="images/Dorindas_-_January-035_grande.jpg" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">Toasty Blonde</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $24.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+
+
+                <img class="img-fluid pt-3 " src="images/Dorindas_-_January-026_grande.jpg" />
+                <p style="padding-top:5px;font-family: 'Merriweather', serif;">Mint Melt Away</p>
+                <a href="#" style="float:right;color:blue; padding-top:0;font-family: 'Merriweather', serif;
+font-family: 'Anton', sans-serif;">from<strong> $24.00</strong></a>
+                <p style="border-bottom:1px solid black;">..</p>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 p-2">
+                        <h3 style="color:white; padding:25px;">Helpful Links</h3>
+                        <ul class="footer_menu">
+
+                            <li><a href="https://dorindaschocolates.com/blogs/news" title="Blog">Blog</a></li>
+
+                            <li><a href="https://dorindaschocolates.com/search" title="Search">Search</a></li>
+
+                            <li><a href="https://dorindaschocolates.com/pages/locations" title="Locations">Locations</a></li>
+
+                            <li><a href="https://dorindaschocolates.com/pages/faq" title="FAQs">FAQs</a></li>
+
+                            <li><a href="https://dorindaschocolates.com/pages/shipping-policy" title="Shipping Policy">Shipping Policy</a></li>
+
+                            <li><a href="https://dorindaschocolates.com/pages/menu-of-chocolates" title="Chocolate Types & Flavors">Chocolate Types & Flavors</a></li>
+
+                            <li><a href="https://dorindaschocolates.com/pages/chocolate-of-the-month-club" title="Chocolate of the Month">Chocolate of the Month</a></li>
+
+                        </ul>
+
+                    </div>
+                    <div class="col-md-5 pt-5">
+                        <!-- Default form subscription -->
+                        <form class="text-center  p-4" style="background-color:#3b0085;">
+
+                            <p class="h4 mb-4 white-text">Sign up for our newsletter:</p>
+
+                            <!-- Email -->
+                            <input type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                            <!-- Sign in button -->
+                            <button type="submit" style="background-color:#a7b632;">GO</button>
+                        </form>
+
+
+                        <div class="col-12 px-3 pt-2  mb-3 justify-content-start justify-content-md-center ">
+                            <div class="mb-5 flex-center">
+                                <div class="row">
+
+                                    <div class="col-2 col-md-1 mr-3 ml-md-5 ml-2 pb-2 pt-1">
+                                        <a href="https://www.facebook.com/DorindasChocolates" class="fb-ic pr-0" style="color:#a7b632;">
+                                            <i class="fab fa-facebook-f fa-lg  mr-md-4 mr-1 fa-2x rounded-circle"> </i>
+                                        </a>
+                                    </div>
+                                    <div class="col-2 col-md-1 mr-3 pb-2 pt-1">
+                                        <!-- Twitter -->
+                                        <a href="https://twitter.com/Dorindaschoco" class="tw-ic pr-0" style="color:#a7b632;">
+                                            <i class="fab fa-twitter  fa-lg  mr-md-4 mr-1 fa-2x rounded-circle"> </i>
+                                        </a>
+                                    </div>
+                                    <div class="col-2 col-md-1 mr-3 pb-2 pt-1 ">
+
+                                        <!-- Google +-->
+                                        <a href="https://plus.google.com/+DorindasChocolatesReno/posts" class="gplus-ic" style="color:#a7b632;">
+                                            <i class="fab fa-google-plus-g fa-lg  mr-md-4 mr-1 fa-2x rounded-circle"> </i>
+                                        </a>
+                                    </div>
+                                    <div class="col-2 col-md-1 mr-3 pb-2 pt-1">
+                                        <!--Linkedin -->
+                                        <a href="https://www.linkedin.com/company/dorinda%27s-chocolates?trk=company_logo" class="li-ic" style="color:#a7b632;">
+                                            <i class="fab fa-linkedin-in fa-lg  mr-md-4 mr-1 fa-2x rounded-circle"> </i>
+                                        </a>
+                                    </div>
+                                    <div class="col-2 col-md-1 mr-3 ml-2 pb-2 pt-1">
+                                        <!--Instagram-->
+                                        <a href="https://www.instagram.com/dorindas_chocolates/" class="ins-ic" style="color:#a7b632;">
+                                            <i class="fab fa-instagram fa-lg  mr-md-4 mr-1 fa-2x rounded-circle"> </i>
+                                        </a>
+                                    </div>
+                                    <div class="col-2 col-md-1 mr-3 pb-2 pt-1">
+                                        <!--Pinterest-->
+                                        <a href="http://www.pinterest.com/dchocolates/" class="pin-ic" style="color:#a7b632;">
+                                            <i class="fab fa-pinterest fa-lg  mr-md-4 mr-1 fa-2x rounded-circle"> </i>
+                                        </a>
+                                    </div>
+
+
+
+                                </div>
+                                <!-- Facebook -->
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+
+
+                        <p class="credits white-text" style="text-align:center;">
+                            Copyright © Dorinda's Chocolates 2015. All Rights Reserved.<br />Website design by <a href="http://bluworldinspired.com">Blü World Inspired</a>.
+
+                            <a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore">Ecommerce Software by Shopify</a>
+                        </p>
+                        <div class="  col-md-12 px-1  mb-3 text-center " style="box-sizing:initial; padding-bottom:10px; align-self:center;  ">
+
+                            <img src="images/cc-discover.png" style="width:45px;" />
+                            <img src="images/cc-mastercard.png" style="width:45px;" />
+                            <img src="images/cc-paypal.png" style="width:45px;" />
+                            <img src="images/cc-visa.png" style="width:45px;" />
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4"></div>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.js"></script>
+</body>
+
+</html>
+<!--<div class="col-md-3 " style="border-bottom:1px solid black;">
+    <img class="img-fluid" src="images/Dorindas_-_Winter-030_large.jpg" />
+    <p>Award Winning Chocolate Cherries</p>
+</div>
+<div class="col-md-3 pt-3" style="border-bottom:1px solid black;">
+    <img class="img-fluid" src="images/Dorindas_-_January-041_large.jpg" />
+    <p>Award Winning Kraken</p>
+</div>
+<div class="col-md-3 pt-3" style="border-bottom:1px solid black;">
+    <img class="img-fluid" src="images/Dorindas_-_January-046_grande.jpg" />
+    <p>Award Winning Lemon</p>
+</div>
+<div class="col-md-3 pt-3 " style="border-bottom:1px solid black;">
+    <img class="img-fluid" src="images/Truffle_Wild_Orange_grande.jpg" />
+    <p>Award Winning Sea Salt Caramel</p>
+</div>
+<div class="col-md-3 pt-3 " style="border-bottom:1px solid black;">
+
+    <img class="img-fluid" src="images/Dorindas_-_January-042_grande.jpg" />
+    <p>Award Winning Sea Salt Caramel</p>
+</div>
+<div class="col-md-3 pt-3 " style="border-bottom:1px solid black;">
+
+
+    <img class="img-fluid" src="images/Truffle_Nut_Trio_Favorite_grande.png" />
+    <p>Award Winning Sea Salt Caramel</p>
+</div>-->
